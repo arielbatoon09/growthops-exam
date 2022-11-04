@@ -1,0 +1,121 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #181818;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+.btn-search{
+    border: none;
+    outline: none;
+}
+.hide{
+    display: none;
+}
+
+/* ROOT */
+:root{
+    --clr-primary: #D21045;
+    --clr-white: #FFFFFF;
+    --clr-black: #181818;
+}
+
+/* HEADER-START */
+.header{
+    width: 100%;
+    background: var(--clr-primary);
+    z-index: 999;
+}
+.header .navbar .navbar-brand > img{
+    width: 64px;
+}
+.header .navbar .navbar-toggler > .bar{
+    background: var(--clr-white);
+    border-radius: 5px;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+}
+.header .navbar .navbar-nav .nav-item > .nav-link{
+    font-weight: 500;
+    color: var(--clr-white);
+}
+.header .navbar .navbar-nav .nav-item > .nav-link:hover{
+    font-weight: 500;
+    color: #F3EED9;
+}
+/* HEADER-END */
+
+/* DISTRICT-START */
+.district{
+    height: 150px;
+    background: #FAF9F4;
+}
+.district  h1{
+    position: relative;
+    top: 100px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #5E4548;
+}
+/* DISTRICT-END */
+
+/* MANAGERS-START */
+.managers{
+    width: 100%;
+    height: 100%;
+    margin: 100px 0;
+}
+.managers .profile-card .card{
+    border: 2px solid transparent;
+    border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.managers .profile-card .profile-img > img{
+    width: 82px;
+    margin-right: 20px;
+}
+.managers .profile-card .profile-info .profile-name{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.managers .profile-card .profile-info span{
+    font-weight: 500;
+}
+/* MANAGERS-END */
+
+@media only screen and (max-width: 768px){
+    /* MANAGERS-START */
+    .managers .profile-card .profile-img > img{
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+    .managers .profile-card .profile-info .profile-name{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .managers .profile-card .profile-info span{
+        font-weight: 500;
+    }
+    /* MANAGERS-END */
+}
