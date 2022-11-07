@@ -25,10 +25,6 @@ a:hover{
     text-decoration: none;
     color: inherit;
 }
-.btn-search{
-    border: none;
-    outline: none;
-}
 .btn-primary{
     background: var(--clr-primary);
     color: var(--clr-white);
