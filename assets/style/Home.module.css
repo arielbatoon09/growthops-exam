@@ -29,12 +29,12 @@
 
 /* DISTRICT-START */
 .district{
-    height: 150px;
+    height: 200px;
     background: #FAF9F4;
 }
 .district  h1{
     position: relative;
-    top: 100px;
+    top: 130px;
     font-size: 2rem;
     font-weight: 600;
     color: #5E4548;
