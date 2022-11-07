@@ -47,10 +47,12 @@
     height: 100%;
     margin: 100px 0;
 }
-.managers .search-filter > span{
+.managers .search-filter .search > label{
     color: var(--clr-gray);
+    margin-bottom: -1px;
+
 }
-.managers .search-filter select{
+.managers .search-filter .search > select{
     height: 40px;
     width: 250px;
     padding: 0 10px;
@@ -101,7 +103,7 @@
 .scrollToTop {
     background: var(--clr-primary);
     border: none;
-    border-radius: 5px;
+    border-radius: 50%;
     color: #FFF;
     position: fixed;
     bottom: 0;
